@@ -1,0 +1,68 @@
+.background {
+    background-color: #2f303a;
+}
+.text-content {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1, 4;
+    letter-spacing: 6%;
+    vertical-align: top;
+    text-align: center;
+}
+.order-service {
+    color: white;
+    background-color: #2196f3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1, 9;
+    letter-spacing: 6%;
+    vertical-align: top;
+    text-align: center;
+}
+.title-style {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1, 1;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.text-style {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.specialty {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+}
+.grey {
+    background-color: #f5f4fa;
+}
+.name {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+}
+.position {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+}
