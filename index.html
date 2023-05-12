@@ -14,27 +14,32 @@
         <style>
             body {
                 font-family: "Roboto", sans-serif;
+                color: var(--almost-black);
             }
         </style>
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
-            <a href="#"><span>Web</span>Studio</a>
+            <a class="logo" href="#"
+                ><span class="logo-part">Web</span>Studio</a
+            >
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Agencja</a>
+                        <a class="link" href="#">Agencja</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                        <a class="link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a class="link" href="#">Kontakt</a></li>
                 </ul>
             </nav>
 
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a>+48 111 111 111</a>
+            <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+            >
+            <a class="link" href="callto:+48 111 111 111">+48 111 111 111</a>
         </header>
         <main>
             <section class="background">
@@ -136,8 +141,8 @@
                             height="260"
                         />
 
-                        <h4>John Doe</h4>
-                        <p>Frontend Developer</p>
+                        <h4 class="name">John Doe</h4>
+                        <p class="position">Frontend Developer</p>
                     </li>
 
                     <li>
@@ -148,8 +153,8 @@
                             height="260"
                         />
 
-                        <h4>John Doe</h4>
-                        <p>Marketing</p>
+                        <h4 class="name">John Doe</h4>
+                        <p class="position">Marketing</p>
                     </li>
 
                     <li>
@@ -160,17 +165,18 @@
                             height="260"
                         />
 
-                        <h4>John Doe</h4>
-                        <p>Ul Designer</p>
+                        <h4 class="name">John Doe</h4>
+                        <p class="position">Ul Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
         <footer>
-            <a href="#"><span>Web</span>Studio</a>
+            <a class="link" href="#"><span>Web</span>Studio</a>
             <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a href="mailto:info@example.com">info@example.com</a><br />
-            <a>+48 111 111 111</a>
+            <a clas="link" href="mailto:info@example.com">info@example.com</a
+            ><br />
+            <a class="link" href="callto:+48 111 111 111">+48 111 111 111</a>
         </footer>
     </body>
 </html>
