@@ -158,3 +158,19 @@
     color: var(--snow);
     background-color: var(--brand-color);
 }
+.project-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 6%;
+    vertical-align: top;
+    text-align: left;
+}
+.project-type {
+    color: var(--mouse);
+    font-size: 16px;
+    line-height: 1, 9;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
