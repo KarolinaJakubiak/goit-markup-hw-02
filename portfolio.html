@@ -14,6 +14,7 @@
         <style>
             body {
                 font-family: "Roboto", sans-serif;
+                color: var(--almost-black);
             }
         </style>
         <link rel="stylesheet" href="./css/styles.css" />
@@ -21,30 +22,54 @@
 
     <body>
         <header>
-            <a href="./index.html"><span>Web</span>Studio</a>
+            <a class="logo-dark" href="./index.html"
+                ><span class="logo-part">Web</span>Studio</a
+            >
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Agencja</a>
+                        <a class="link" href="#">Agencja</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a class="link" href="#">Portfolio</a>
                     </li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a class="link" href="#">Kontakt</a></li>
                 </ul>
             </nav>
 
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a>+48 111 111 111</a>
+            <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+            >
+            <a class="link" href="callto:+48 111 111 111">+48 111 111 111</a>
         </header>
         <main>
             <section>
                 <ul>
-                    <li><button type="button">Wszystkie</button></li>
-                    <li><button type="button">Strony</button></li>
-                    <li><button type="button">Aplikacje</button></li>
-                    <li><button type="button">Dizajn</button></li>
-                    <li><button type="button">Marketing</button></li>
+                    <li>
+                        <button class="button-design" type="button">
+                            Wszystkie
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-design" type="button">
+                            Strony
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-design" type="button">
+                            Aplikacje
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-design" type="button">
+                            Dizajn
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-design" type="button">
+                            Marketing
+                        </button>
+                    </li>
                 </ul>
             </section>
             <section>
@@ -142,11 +167,17 @@
                 </ul>
             </section>
         </main>
-        <footer>
-            <a href="#"><span>Web</span>Studio</a>
-            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a href="mailto:info@example.com">info@example.com</a><br />
-            <a>+48 111 111 111</a>
+        <footer class="background">
+            <a class="logo-light" href="#"
+                ><span class="logo-part">Web</span>Studio</a
+            >
+            <div class="address-style">m. Warszawa, Aleje Jerozolimskie 21</div>
+            <a class="link-footer" href="mailto:info@example.com"
+                >info@example.com</a
+            ><br />
+            <a class="link-footer" href="callto:+48 111 111 111"
+                >+48 111 111 111</a
+            >
         </footer>
     </body>
 </html>

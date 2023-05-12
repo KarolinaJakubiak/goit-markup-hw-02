@@ -6,9 +6,20 @@
     --almost-white: #f5f4fa;
     --dark-grey: #2f303a;
 }
-.logo {
+.logo-dark {
     font-family: raleway;
     color: var(--almost-black);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.logo-light {
+    font-family: raleway;
+    color: var(--snow);
     text-decoration: none;
     font-size: 26px;
     font-weight: 700;
@@ -103,4 +114,47 @@
     letter-spacing: 3%;
     vertical-align: top;
     text-align: center;
+}
+.address-style {
+    color: var(--snow);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.link-footer {
+    color: var(--snow);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.link-footer:hover,
+.link-footer:focus,
+.link-footer:active {
+    color: var(--brand-color);
+}
+
+.button-design {
+    border: var(--almost-white);
+    cursor: pointer;
+    width: 114px;
+    height: 38px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 6;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+}
+.button-design:hover,
+.button-design:focus,
+.button-design:active {
+    color: var(--snow);
+    background-color: var(--brand-color);
 }
