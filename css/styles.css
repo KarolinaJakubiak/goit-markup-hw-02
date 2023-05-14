@@ -6,6 +6,13 @@
     --almost-white: #f5f4fa;
     --dark-grey: #2f303a;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--almost-black);
+}
+ul {
+    list-style-type: none;
+}
 .logo-dark {
     font-family: raleway;
     color: var(--almost-black);
@@ -173,7 +180,4 @@
     letter-spacing: 3%;
     vertical-align: top;
     text-align: left;
-}
-.nodots {
-    list-style: none;
 }
