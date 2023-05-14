@@ -174,3 +174,6 @@
     vertical-align: top;
     text-align: left;
 }
+.nodots {
+    list-style: none;
+}
